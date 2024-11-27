@@ -16,7 +16,7 @@ def topwin():
     top.mainloop()
 
 l = Label(root, text = "This is window")
-btn = Button(root, text  "Click here to open another window", command = topwin)
+btn = Button(root, text = "Click here to open another window", command = topwin)
 
 l.pack()
 btn.pack()
